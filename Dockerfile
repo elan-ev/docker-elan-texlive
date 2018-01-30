@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   ledger \
   texlive-base \
   texlive-latex-base \
+  texlive-latex-extra \
   texlive-latex-recommended \
   texlive-fonts-recommended \
   texlive-lang-german \
