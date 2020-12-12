@@ -1,10 +1,10 @@
 FROM debian:buster-slim
-MAINTAINER Lars Kiesow <lkiesow@uos.de>
 
 # Update the repository sources list
 RUN apt-get update && apt-get install -y --no-install-recommends \
   ca-certificates \
   curl \
+  jq \
   ledger \
   python3 \
   texlive-base \
