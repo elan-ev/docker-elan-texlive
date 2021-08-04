@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   jq \
   ledger \
   python3 \
+  python3-venv \
+  python3-yaml \
   texlive-base \
   texlive-latex-base \
   texlive-latex-extra \
